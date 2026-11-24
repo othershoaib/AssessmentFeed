@@ -131,8 +131,11 @@ public final class AssessmentFeed {
         final String title, type;
         final double first, second, third;
         AssessmentData(String title, String type, double first, double second, double third) {
-            this.title = title; this.type = type;
-            this.first = first; this.second = second; this.third = third;
+            this.title = title;
+            this.type = type;
+            this.first = first;
+            this.second = second;
+            this.third = third;
         }
     }
 }
